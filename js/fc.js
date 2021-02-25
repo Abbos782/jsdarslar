@@ -1,15 +1,11 @@
-let dollar = 10000.20
-let ruble = 150
-if(confirm('Dollar almashtirmoqchimsiz')){
-   let sum = prompt("sum miqdorini kiriting" +"  " + "UZB->USD")
-   let natija = sum/dollar
-   alert("sizga beriladigan dollar miqdori->"+natija+"$"+"            "+"Bizbilan ishlaganiz uchun rahmat" +"         " +"Tastiqlash uchun OK tugmasini bosing")
 
-}else{
-    let sum = prompt("sum miqdorini kiriting"+ " "+"UZB->RUB")
-    let natija = sum/ruble
-    alert("sizga beriladigan ruble miqdori->"+natija+ "₽"+"               "+"Bizbilan ishlaganiz uchun rahmat" +"   " +"Tastiqlash uchun OK tugmasini bosing")
- 
-}
+let dolorni__sumga_nisbati = 9433.34
+let yevroni__sumga_nisbati = 10354.03
+let alisherning__puli = prompt(" Alisher qancha puliz bor")-0
+let alisher__dollor_miqdori = alisherning__puli/dolorni__sumga_nisbati
+let alisher__yevro_miqdori =alisherning__puli/yevroni__sumga_nisbati
+alert("Alisherning  dollor puli"+alisher__dollor_miqdori + "$")
+alert("Alisherning  yevro puli"+alisher__dollor_miqdori + "E")
+let barcha_harajatlar = 
 
 
